@@ -33,3 +33,5 @@ driver.quit()
 # pip install selenium
 python ./test/selenium.test.py;
 ```
+
+![show](./static/show.gif)
