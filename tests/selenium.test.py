@@ -1,14 +1,3 @@
-
-# How to use?
-```bash
-git clone https://github.com/xgoteam/testteam_selenium;
-cd testteam_selenium;
-docker-compose up -d;
-docker-compose ps;
-```
-
-# tests/selenium.test.py
-```python
 from selenium import webdriver as wd
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities as DC
 
@@ -26,10 +15,3 @@ def test_baidu_screenshot():
 
 test_baidu_screenshot()
 driver.quit()
-```
-
-# Run it
-```bash
-# pip install selenium
-python ./test/selenium.test.py;
-```
